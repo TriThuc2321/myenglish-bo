@@ -43,3 +43,5 @@ next-env.d.ts
 specs
 # playwright-mcp scratch output
 /.playwright-mcp/
+# heroui-agents-md
+.heroui-docs/

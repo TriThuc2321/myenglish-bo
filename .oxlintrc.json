@@ -16,5 +16,12 @@
     "typescript/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     "typescript/consistent-type-imports": "error"
   },
-  "ignorePatterns": [".next/**", "out/**", "build/**", "next-env.d.ts"]
+  "ignorePatterns": [
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+    ".claude",
+    ".agents"
+  ]
 }
