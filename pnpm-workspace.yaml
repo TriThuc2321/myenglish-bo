@@ -1,3 +1,9 @@
+publicHoistPattern:
+  - '*@heroui/*'
+
 allowBuilds:
-  sharp: false
-  unrs-resolver: false
+  '@heroui/shared-utils': true
+  '@parcel/watcher': true
+  '@swc/core': true
+  sharp: true
+  unrs-resolver: true
