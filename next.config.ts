@@ -24,6 +24,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  allowedDevOrigins: ['backoffice.myenglish.com'],
 };
 
 const withBundleAnalyzer = bundleAnalyzer({
