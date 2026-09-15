@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Button>My Button</Button>
-      <Input placeholder="Hellow" />
+      <Input placeholder="Hello" />
     </div>
   );
 }
