@@ -77,3 +77,8 @@
   --warning: oklch(76% 0.148 68);
   --warning-foreground: oklch(14% 0.04 68);
 }
+
+[data-theme='dark'] [data-hide-on-theme='dark'],
+[data-theme='light'] [data-hide-on-theme='light'] {
+  display: none;
+}
