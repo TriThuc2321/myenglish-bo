@@ -1,0 +1,10 @@
+{
+  "locale": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "common": {
+    "appName": "MyEnglish Quản trị",
+    "welcome": "Chào mừng trở lại"
+  }
+}

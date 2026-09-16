@@ -1,13 +1,18 @@
 import { Button, Input } from '@heroui/react';
+import { getTranslations } from 'next-intl/server';
 
-import ThemeSwitch from '@/components/layouts/switchTheme';
+import { SwitchLocale, ThemeSwitch } from '@/components/layouts';
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations('common');
+
   return (
     <div>
+      <h1>{t('welcome')}</h1>
       <Button>My Button</Button>
       <Input placeholder="Hello" />
       <ThemeSwitch />
+      <SwitchLocale />
     </div>
   );
 }
