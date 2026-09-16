@@ -1,0 +1,10 @@
+{
+  "locale": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "common": {
+    "appName": "MyEnglish Back Office",
+    "welcome": "Welcome back"
+  }
+}
